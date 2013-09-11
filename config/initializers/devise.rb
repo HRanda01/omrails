@@ -1,6 +1,10 @@
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
+
+  # Adding config.secret_key as upgrade to Devise security - DR
+  config.secret_key = '3837d57c7874196932a03550a8c320ecb6eb0284d44c5fe3dbf0fb1f6
+4851d6c2ff6533cfd3524b29cd54a7af70ff619574a66c01f7d671b58acbc97895b55bf'
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
@@ -250,5 +254,4 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = "/my_engine/users/auth"
 
-  config.allow_insecure_sign_in_after_confirmation = true
-end
+ end
