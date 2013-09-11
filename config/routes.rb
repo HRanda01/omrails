@@ -1,5 +1,6 @@
 Omrails::Application.routes.draw do
   devise_for :users
+  devise_for :installs
 
   get 'about' => 'Pages#about'
 
