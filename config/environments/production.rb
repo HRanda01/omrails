@@ -1,9 +1,6 @@
 Omrails::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
- config.secret_key = '3837d57c7874196932a03550a8c320ecb6eb0284d44c5fe3dbf0fb1f6
-4851d6c2ff6533cfd3524b29cd54a7af70ff619574a66c01f7d671b58acbc97895b55bf'
-
   # Code is not reloaded between requests
   config.cache_classes = true
 
