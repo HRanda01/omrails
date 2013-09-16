@@ -3,8 +3,8 @@
 Devise.setup do |config|
 
   # Adding config.secret_key as upgrade to Devise security - DR
-  config.secret_key = '3837d57c7874196932a03550a8c320ecb6eb0284d44c5fe3dbf0fb1f6
-  4851d6c2ff6533cfd3524b29cd54a7af70ff619574a66c01f7d671b58acbc97895b55bf'
+  #config.secret_key = '3837d57c7874196932a03550a8c320ecb6eb0284d44c5fe3dbf0fb1f6
+  #4851d6c2ff6533cfd3524b29cd54a7af70ff619574a66c01f7d671b58acbc97895b55bf'
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
